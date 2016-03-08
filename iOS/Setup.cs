@@ -1,11 +1,11 @@
-using Com.Gossip.Bollywood.Shared;
+using Com.Gossip.Shared;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
 using MvvmCross.Platform.Platform;
 using UIKit;
 
-namespace Com.Gossip.Bollywood.iOS
+namespace Com.Gossip.iOS
 {
     public class Setup : MvxIosSetup
     {

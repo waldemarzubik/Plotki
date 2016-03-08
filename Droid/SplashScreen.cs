@@ -2,7 +2,7 @@ using Android.App;
 using Android.Content.PM;
 using MvvmCross.Droid.Views;
 
-namespace Com.Gossip.Bollywood.Droid
+namespace Com.Gossip.Droid
 {
     [Activity(
         Label = "Com.Gossip.Bollywood.Droid"

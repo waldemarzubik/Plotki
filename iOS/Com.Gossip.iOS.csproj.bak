@@ -6,7 +6,7 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{624F9747-2BF3-4DA7-B8B4-61C469FB6AEA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Com.Gossip.Bollywood.iOS</RootNamespace>
+    <RootNamespace>Com.Gossip.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Com.Gossip.Bollywood.Shared.iOS</AssemblyName>
   </PropertyGroup>
@@ -118,19 +118,15 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Setup.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Shared\Com.Gossip.Bollywood.Shared.csproj">
+    <ProjectReference Include="..\Shared\Com.Gossip.Shared.csproj">
       <Project>{6D6FC325-1ACB-4253-BCE2-B23F250120A3}</Project>
-      <Name>Com.Gossip.Bollywood.Shared</Name>
+      <Name>Com.Gossip.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

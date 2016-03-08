@@ -2,9 +2,9 @@ using Android.Content;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
-using Com.Gossip.Bollywood.Shared;
+using Com.Gossip.Shared;
 
-namespace Com.Gossip.Bollywood.Droid
+namespace Com.Gossip.Droid
 {
     public class Setup : MvxAndroidSetup
     {

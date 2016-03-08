@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Com.Gossip.Bollywood.Shared.iOS
+namespace Com.Gossip.Shared.iOS
 {
     public class Application
     {

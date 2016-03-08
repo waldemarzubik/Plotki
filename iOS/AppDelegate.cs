@@ -1,11 +1,11 @@
-﻿using Com.Gossip.Bollywood.iOS;
+﻿using Com.Gossip.iOS;
 using Foundation;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.Platform;
 using UIKit;
 
-namespace Com.Gossip.Bollywood.Shared.iOS
+namespace Com.Gossip.Shared.iOS
 {
     [Register("AppDelegate")]
     public partial class AppDelegate : MvxApplicationDelegate

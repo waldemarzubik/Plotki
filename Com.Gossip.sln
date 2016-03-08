@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Gossip.Bollywood.iOS", "iOS\Com.Gossip.Bollywood.iOS.csproj", "{624F9747-2BF3-4DA7-B8B4-61C469FB6AEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Gossip.iOS", "iOS\Com.Gossip.iOS.csproj", "{624F9747-2BF3-4DA7-B8B4-61C469FB6AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Gossip.Bollywood.Droid", "Droid\Com.Gossip.Bollywood.Droid.csproj", "{F29D5766-AD56-4812-A05E-E1F01A0D951A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Gossip.Droid", "Droid\Com.Gossip.Droid.csproj", "{F29D5766-AD56-4812-A05E-E1F01A0D951A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Gossip.Bollywood.Shared", "Shared\Com.Gossip.Bollywood.Shared.csproj", "{6D6FC325-1ACB-4253-BCE2-B23F250120A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Gossip.Shared", "Shared\Com.Gossip.Shared.csproj", "{6D6FC325-1ACB-4253-BCE2-B23F250120A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

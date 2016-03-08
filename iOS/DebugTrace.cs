@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using MvvmCross.Platform.Platform;
 
-namespace Com.Gossip.Bollywood.iOS
+namespace Com.Gossip.iOS
 {
     public class DebugTrace : IMvxTrace
     {

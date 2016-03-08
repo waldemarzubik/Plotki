@@ -1,7 +1,7 @@
 using MvvmCross.Platform.IoC;
-using Com.Gossip.Bollywood.Shared.ViewModels;
+using Com.Gossip.Shared.ViewModels;
 
-namespace Com.Gossip.Bollywood.Shared
+namespace Com.Gossip.Shared
 {
     public class App : MvvmCross.Core.ViewModels.MvxApplication
     {
