@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="windowbg">#FF20212E</color>
+	<color name="actionbarbg">#FF000000</color>
+	<color name="semitransparentbg">#B3000000</color>
+	<color name="black60transparent">#99000000</color>
+	<color name="black40transparent">#66000000</color>
+	<color name="black05transparent">#0D000000</color>
+	<color name="black10transparent">#16000000</color>
+	<color name="black20transparent">#33000000</color>
+	<color name="white20transparent">#33FFFFFF</color>
+	<color name="white15transparent">#26FFFFFF</color>
+	<color name="white70transparent">#B3FFFFFF</color>
+	<color name="white50transparent">#80FFFFFF</color>
+	<color name="accent">#FF2E80</color>
+</resources>
