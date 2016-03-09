@@ -449,6 +449,9 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f010037
 			public const int errorEnabled = 2130772023;
 			
+			// aapt resource value: 0x7f010118
+			public const int errorImage = 2130772248;
+			
 			// aapt resource value: 0x7f010038
 			public const int errorTextAppearance = 2130772024;
 			
@@ -659,6 +662,9 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0100d9
 			public const int panelMenuListWidth = 2130772185;
 			
+			// aapt resource value: 0x7f010117
+			public const int placeholder = 2130772247;
+			
 			// aapt resource value: 0x7f0100c6
 			public const int popupMenuStyle = 2130772166;
 			
@@ -691,6 +697,9 @@ namespace Com.Gossip.Droid
 			
 			// aapt resource value: 0x7f0100f4
 			public const int ratingBarStyle = 2130772212;
+			
+			// aapt resource value: 0x7f010119
+			public const int refreshMode = 2130772249;
 			
 			// aapt resource value: 0x7f01010e
 			public const int reverseLayout = 2130772238;
@@ -3758,6 +3767,25 @@ namespace Com.Gossip.Droid
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
+			
+			public static int[] CacheImageView = new int[]
+			{
+					16843017,
+					2130772247,
+					2130772248,
+					2130772249};
+			
+			// aapt resource value: 0
+			public const int CacheImageView_android_foreground = 0;
+			
+			// aapt resource value: 2
+			public const int CacheImageView_errorImage = 2;
+			
+			// aapt resource value: 1
+			public const int CacheImageView_placeholder = 1;
+			
+			// aapt resource value: 3
+			public const int CacheImageView_refreshMode = 3;
 			
 			public static int[] CollapsingAppBarLayout_LayoutParams = new int[]
 			{

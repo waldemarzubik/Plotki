@@ -1,11 +1,12 @@
+using System.Collections.Generic;
 using Android.Content;
 using Com.Gossip.Droid.Models;
-using MvvmCross.Droid.Platform;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Platform.Platform;
 using Com.Gossip.Shared;
 using Com.Gossip.Shared.Interfaces;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Droid.Platform;
 using MvvmCross.Platform;
+using MvvmCross.Platform.Platform;
 
 namespace Com.Gossip.Droid
 {
@@ -30,6 +31,16 @@ namespace Com.Gossip.Droid
         {
             base.InitializeFirstChance();
             Mvx.LazyConstructAndRegisterSingleton<IStorage, StorageService>();
+        }
+
+        protected override IDictionary<string, string> ViewNamespaceAbbreviations
+        {
+            get
+            {
+                var toReturn = base.ViewNamespaceAbbreviations;
+                toReturn["uicontrols"] = "Com.Gossip.Droid.Controls";
+                return toReturn;
+            }
         }
     }
 }
