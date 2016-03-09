@@ -1,8 +1,11 @@
 using Android.Content;
+using Com.Gossip.Droid.Models;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
 using Com.Gossip.Shared;
+using Com.Gossip.Shared.Interfaces;
+using MvvmCross.Platform;
 
 namespace Com.Gossip.Droid
 {
@@ -21,6 +24,12 @@ namespace Com.Gossip.Droid
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+
+        protected override void InitializeFirstChance()
+        {
+            base.InitializeFirstChance();
+            Mvx.LazyConstructAndRegisterSingleton<IStorage, StorageService>();
         }
     }
 }

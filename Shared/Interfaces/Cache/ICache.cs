@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace Com.Gossip.Shared.Interfaces.Cache
 {
@@ -9,6 +8,6 @@ namespace Com.Gossip.Shared.Interfaces.Cache
 
         Task RemoveAllAsync();
 
-        Task UpdateCacheDataAsync<T>(T data, string token, DateTime expirationDate) where T : class;
+        Task UpdateCacheDataAsync<T, G>(G data, string token) where T : IRequest where G : class;
     }
 }

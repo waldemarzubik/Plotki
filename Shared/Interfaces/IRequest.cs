@@ -2,7 +2,7 @@
 {
     public interface IRequest
     {
-        string Url { get; }
+        string Uri { get; }
 
         bool IgnoreCache { get; set; }
     }
