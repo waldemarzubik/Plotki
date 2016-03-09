@@ -34,5 +34,12 @@ namespace Com.Gossip.Shared.DataModels
 
         [JsonProperty("title")]
         public string Title { get; set; }
+
+        [JsonProperty("content")]
+        public string HtmlContent { get; set; }
+
+        //todo:change this
+        [JsonProperty("gallery")]
+        public string Gallery { get; set; }
     }
 }
