@@ -7,7 +7,7 @@ using MvvmCross.iOS.Views;
 namespace Com.Gossip.iOS
 {
     [MvxFromStoryboard("Main")]
-    partial class MainViewController : MvxViewController
+    partial class MainViewController : ViewControllerBase
     {
         public MainViewController(IntPtr handle)
             : base(handle)

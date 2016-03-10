@@ -127,10 +127,9 @@
     <Compile Include="Setup.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
-    <Compile Include="MainViewController.cs" />
-    <Compile Include="MainViewController.designer.cs">
-      <DependentUpon>MainViewController.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Views\MainViewController.cs" />
+    <Compile Include="Views\MainViewController.designer.cs" />
+    <Compile Include="Views\ViewControllerBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

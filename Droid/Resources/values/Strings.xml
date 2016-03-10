@@ -2,4 +2,7 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">Com.Gossip.Bollywood.Shared.Droid</string>
+	<string name="DrawerItemNews">News</string>
+	<string name="DrawerItemSettings">Settings</string>
+	<string name="DrawerItemAbout">About</string>
 </resources>

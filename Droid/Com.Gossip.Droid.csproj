@@ -120,6 +120,7 @@
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="Controls\CacheImageView.cs" />
     <Compile Include="Extensions\PicassoExtensions.cs" />
+    <Compile Include="Views\ViewBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -141,6 +142,9 @@
     <AndroidResource Include="Resources\values\Themes.xml" />
     <AndroidResource Include="Resources\values\Colors.xml" />
     <AndroidResource Include="Resources\values\Attributes.xml" />
+    <AndroidResource Include="Resources\layout\Toolbar.axml" />
+    <AndroidResource Include="Resources\layout\Drawer_Header.axml" />
+    <AndroidResource Include="Resources\menu\Drawer_Menu.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ItemGroup>
@@ -152,5 +156,6 @@
   <ItemGroup>
     <Folder Include="Controls\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Resources\menu\" />
   </ItemGroup>
 </Project>

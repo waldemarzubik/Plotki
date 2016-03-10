@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-	<color name="windowbg">#FF20212E</color>
+	<color name="windowbg">#FFFFFFFF</color>
 	<color name="actionbarbg">#FF000000</color>
 	<color name="semitransparentbg">#B3000000</color>
 	<color name="black60transparent">#99000000</color>
@@ -12,5 +12,5 @@
 	<color name="white15transparent">#26FFFFFF</color>
 	<color name="white70transparent">#B3FFFFFF</color>
 	<color name="white50transparent">#80FFFFFF</color>
-	<color name="accent">#FF2E80</color>
+	<color name="accent">#FF0000</color>
 </resources>

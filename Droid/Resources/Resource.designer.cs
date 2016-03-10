@@ -1849,14 +1849,23 @@ namespace Com.Gossip.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0a0084
+			public const int DrawerItemAbout = 2131361924;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int DrawerItemNews = 2131361922;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int DrawerItemSettings = 2131361923;
+			
 			// aapt resource value: 0x7f0a000b
 			public const int MvvmCrossTagId = 2131361803;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int MvxBindingTagUnique = 2131361804;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int action0 = 2131361906;
+			// aapt resource value: 0x7f0a0074
+			public const int action0 = 2131361908;
 			
 			// aapt resource value: 0x7f0a005c
 			public const int action_bar = 2131361884;
@@ -1882,8 +1891,8 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a005d
 			public const int action_context_bar = 2131361885;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int action_divider = 2131361910;
+			// aapt resource value: 0x7f0a0078
+			public const int action_divider = 2131361912;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -1918,8 +1927,8 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a0046
 			public const int buttonPanel = 2131361862;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int cancel_action = 2131361907;
+			// aapt resource value: 0x7f0a0075
+			public const int cancel_action = 2131361909;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int center = 2131361814;
@@ -1933,8 +1942,8 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a0054
 			public const int checkbox = 2131361876;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int chronometer = 2131361913;
+			// aapt resource value: 0x7f0a007b
+			public const int chronometer = 2131361915;
 			
 			// aapt resource value: 0x7f0a001f
 			public const int clip_horizontal = 2131361823;
@@ -1975,14 +1984,20 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a0029
 			public const int disableHome = 2131361833;
 			
+			// aapt resource value: 0x7f0a0073
+			public const int drawer_content = 2131361907;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int drawer_layout = 2131361906;
+			
 			// aapt resource value: 0x7f0a005e
 			public const int edit_query = 2131361886;
 			
 			// aapt resource value: 0x7f0a0019
 			public const int end = 2131361817;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int end_padder = 2131361918;
+			// aapt resource value: 0x7f0a0080
+			public const int end_padder = 2131361920;
 			
 			// aapt resource value: 0x7f0a000d
 			public const int enterAlways = 2131361805;
@@ -2026,8 +2041,8 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a0041
 			public const int image = 2131361857;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int info = 2131361917;
+			// aapt resource value: 0x7f0a007f
+			public const int info = 2131361919;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int item_touch_helper_previous_elevation = 2131361802;
@@ -2035,11 +2050,11 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int left = 2131361819;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int line1 = 2131361911;
+			// aapt resource value: 0x7f0a0079
+			public const int line1 = 2131361913;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int line3 = 2131361915;
+			// aapt resource value: 0x7f0a007d
+			public const int line3 = 2131361917;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int listMode = 2131361831;
@@ -2047,8 +2062,8 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a0043
 			public const int list_item = 2131361859;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int media_actions = 2131361909;
+			// aapt resource value: 0x7f0a0077
+			public const int media_actions = 2131361911;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int middle = 2131361845;
@@ -2182,8 +2197,8 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a001d
 			public const int start = 2131361821;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int status_bar_latest_event_content = 2131361908;
+			// aapt resource value: 0x7f0a0076
+			public const int status_bar_latest_event_content = 2131361910;
 			
 			// aapt resource value: 0x7f0a0067
 			public const int submit_area = 2131361895;
@@ -2191,23 +2206,26 @@ namespace Com.Gossip.Droid
 			// aapt resource value: 0x7f0a0028
 			public const int tabMode = 2131361832;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int text = 2131361916;
+			// aapt resource value: 0x7f0a007e
+			public const int text = 2131361918;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int text2 = 2131361914;
+			// aapt resource value: 0x7f0a007c
+			public const int text2 = 2131361916;
 			
 			// aapt resource value: 0x7f0a004f
 			public const int textSpacerNoButtons = 2131361871;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int time = 2131361912;
+			// aapt resource value: 0x7f0a007a
+			public const int time = 2131361914;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int title = 2131361861;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int title_template = 2131361866;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int toolbar = 2131361921;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int top = 2131361822;
@@ -2383,46 +2401,52 @@ namespace Com.Gossip.Droid
 			public const int design_navigation_menu_item = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int MainView = 2130968612;
+			public const int Drawer_Header = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int notification_media_action = 2130968613;
+			public const int MainView = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int notification_media_cancel_action = 2130968614;
+			public const int notification_media_action = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int notification_template_big_media = 2130968615;
+			public const int notification_media_cancel_action = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int notification_template_big_media_narrow = 2130968616;
+			public const int notification_template_big_media = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_template_lines = 2130968617;
+			public const int notification_template_big_media_narrow = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_template_media = 2130968618;
+			public const int notification_template_lines = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_template_part_chronometer = 2130968619;
+			public const int notification_template_media = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_template_part_time = 2130968620;
+			public const int notification_template_part_chronometer = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int select_dialog_item_material = 2130968621;
+			public const int notification_template_part_time = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int select_dialog_multichoice_material = 2130968622;
+			public const int select_dialog_item_material = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int select_dialog_singlechoice_material = 2130968623;
+			public const int select_dialog_multichoice_material = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int SplashScreen = 2130968624;
+			public const int select_dialog_singlechoice_material = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int support_simple_spinner_dropdown_item = 2130968625;
+			public const int SplashScreen = 2130968625;
+			
+			// aapt resource value: 0x7f040032
+			public const int support_simple_spinner_dropdown_item = 2130968626;
+			
+			// aapt resource value: 0x7f040033
+			public const int Toolbar = 2130968627;
 			
 			static Layout()
 			{
@@ -2430,6 +2454,22 @@ namespace Com.Gossip.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0d0000
+			public const int Drawer_Menu = 2131558400;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -2452,6 +2492,15 @@ namespace Com.Gossip.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0b001a
+			public const int DrawerItemAbout = 2131427354;
+			
+			// aapt resource value: 0x7f0b0018
+			public const int DrawerItemNews = 2131427352;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int DrawerItemSettings = 2131427353;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int abc_action_bar_home_description = 2131427330;
